@@ -25,8 +25,8 @@ public class Employee
 	@NotNull(message = "Name can't be Null")
 	private String name;
 	@Column(unique = true)
-	@Min(value = 6000000000l)
-	@Max(value = 9999999999l)
+	@Min(value = 6000000000L)
+	@Max(value = 9999999999L)
 	private long phone;
 	@NotBlank(message = "Address can't be blank")
 	@NotNull(message = "Address can't be null")
